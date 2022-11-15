@@ -128,3 +128,85 @@ footer {
 footer a {
     color: hsl(228, 45%, 44%);
 }
+
+/* Media queries */
+@media screen and (min-width: 900px) {
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5em;
+    }
+
+    h1 {
+        font-size: 5rem;
+        width: 70%;
+        text-align: left;
+        padding: 0;
+    }
+
+    h1+p {
+        width: 75%;
+        text-align: left;
+        padding-right: 1.6em;
+    }
+
+    main {
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1em;
+    }
+
+    .introduction {
+        width: 50%;
+    }
+
+    .ratings {
+        justify-content: center;
+        width: 42%;
+    }
+
+    .rating1,
+    .rating2,
+    .rating3 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .rating1 {
+        position: relative;
+        right: 5.2em;
+    }
+
+    .rating2 {
+        position: relative;
+        right: 2em;
+    }
+
+
+    .testimonials {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .verified-buyer {
+        width: 31.5%;
+    }
+
+    .verified-buyer:nth-child(2) {
+        position: relative;
+        top: 1.2em;
+    }
+
+    .verified-buyer:nth-child(3) {
+        position: relative;
+        top: 2.5em;
+    }
+
+}
