@@ -25,12 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![mobile](./images/screenshot-mobile.png)
+![desktop](./images/screenshot-desktop.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://mauritzlm.github.io/social-proof-section/)
 
 ## My process
 
@@ -43,48 +44,21 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-
-This was a really fun challenge to practice with layout. I used a lot of flexbox. I learned that getting the structure of your html right is very important, because there are so many boxes. One has to think through the problem and plan the structure one wants to use before starting to write code.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+This was a really fun challenge to practice with layout. I used a lot of flexbox. I learned that getting the structure of your html right is very important, because there are many boxes. One has to think through the problem and plan the structure one wants to use before starting to write code.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I want improve with building a layout, I feel I can improve a lot with flexbox and I want to get more comfortable with css grid.
 
-1. I want improve with building a layout, continue practicing.
-2. structuring html and css.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I also want to learn more about writing good accessible html when you are dealing with a lot of elements and containing boxes.
 
 ### Useful resources
 
-css tricks flexbox article.
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [css tricks flexbox article](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - I like to refer to this article when using flexbox.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@MauritzLM](https://www.frontendmentor.io/profile/MauritzLM)
 
 
 
