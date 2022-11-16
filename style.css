@@ -65,7 +65,6 @@ main {
     text-align: center;
     padding: .4em 1em .6em 1em;
     border-radius: .5em;
-
 }
 
 .stars {
@@ -130,7 +129,7 @@ footer a {
 }
 
 /* Media queries */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
 
     body {
         display: flex;
@@ -138,6 +137,9 @@ footer a {
         justify-content: center;
         flex-direction: column;
         gap: 5em;
+        background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+        background-repeat: no-repeat no-repeat;
+        background-position: top left, bottom right;
     }
 
     h1 {
@@ -145,6 +147,7 @@ footer a {
         width: 70%;
         text-align: left;
         padding: 0;
+        margin-bottom: .5em;
     }
 
     h1+p {
@@ -154,11 +157,13 @@ footer a {
     }
 
     main {
-        width: 75%;
+        width: 1050px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         gap: 1em;
+        padding: 0;
+        height: 60%;
     }
 
     .introduction {
@@ -167,7 +172,9 @@ footer a {
 
     .ratings {
         justify-content: center;
+        align-items: flex-end;
         width: 42%;
+        margin-top: 0;
     }
 
     .rating1,
@@ -176,27 +183,34 @@ footer a {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        gap: 2em;
+        gap: 1.8em;
+        width: 95%;
     }
 
     .rating1 {
         position: relative;
-        right: 5.2em;
+        right: 6em;
     }
 
     .rating2 {
         position: relative;
-        right: 2em;
+        right: 3em;
     }
 
 
     .testimonials {
         flex-direction: row;
         justify-content: space-between;
+        gap: 1.8em;
+        margin-top: 0;
     }
 
     .verified-buyer {
-        width: 31.5%;
+        flex: 28%;
+        padding-bottom: 0;
+        height: 92%;
+        padding-right: 2.25em;
+        padding-left: 2.25em;
     }
 
     .verified-buyer:nth-child(2) {
